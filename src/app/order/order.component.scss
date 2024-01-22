@@ -14,6 +14,37 @@ label{
 
 }
 
-.table{
-    background-color: transparent !important;
+.table {
+    width: 100%;
+    /* Change as needed */
+    
+    /* Change as needed */
+    color: #212529;
+    /* Change as needed */
+   
+}
+
+.table th,
+.table td {
+    padding: 0.75rem;
+    /* Change as needed */
+    vertical-align: top;
+    /* Change as needed */
+    border-top: 1px solid #dee2e6;
+    /* Change as needed */
+   
+}
+
+.table thead th {
+    vertical-align: bottom;
+    /* Change as needed */
+    border-bottom: 2px solid #dee2e6;
+    
+    /* Change as needed */
+}
+
+.table tbody+tbody {
+    border-top: 2px solid #dee2e6;
+   
+    /* Change as needed */
 }
