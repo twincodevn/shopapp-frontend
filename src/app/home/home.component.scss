@@ -1,0 +1,48 @@
+.search-form{
+    width:300px;
+    margin-right: 10px;
+    background-color: transparent;
+    color:white;
+    border: 2px solid #272222;
+}
+
+.search-form::placeholder{
+    color:#000;
+}
+
+.search-form:focus {
+border-color: rgb(25, 14, 1);
+    box-shadow: none;
+    /* Change as needed */
+}
+
+
+.search-categories{
+    width:200px;
+    color:#000;
+    background-color: transparent;
+    border: 2px solid #272222;
+}
+
+.search-categories:focus{
+border-color: rgb(25, 14, 1);
+    box-shadow: none;
+}
+.product-item{
+        border:2px solid;
+        border-radius: 10px;
+        background: #495783;
+        background: linear-gradient(135deg, #495783, #B38698);
+        padding:20px;
+
+}
+
+.product-image{
+    height:100%;
+    width:100%;
+
+}
+
+.product-rating{
+    color:yellow;
+}
